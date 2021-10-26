@@ -1,0 +1,22 @@
+export default (obj?) => ({
+    categories: [],
+    subcategories: [],
+    items: [],
+    item: null,
+    category: null,
+    subcategory: null,
+    family: null,
+    count: 0,
+    limit: 10,
+    skip: 0,
+    search: "",
+    content: null,
+    page: 1,    
+    sort: "Popularity",
+    sorts: {
+        "Popularity": { "Priority": -1 },
+        "Part No": { "ProductID": 1 },
+        "Name": { "Name": 1 },
+    },
+    ...(obj || {}),
+});

@@ -1,0 +1,19 @@
+﻿doctype html
+html
+	head
+		meta(name='viewport', content='width=device-width,user-scalable=no,initial-scale=1')
+		meta(name='Description', content= props.meta.description)
+		meta(name='Keywords', content= props.meta.keywords)
+		title= props.meta.title
+		link(href='/antd/antd.min.css', rel='stylesheet')
+		link(href='/stylesheets/global.css', rel='stylesheet')
+		link(rel="icon", type="image/x-icon", href="/favicon.ico")
+	body
+		#react !{html}
+		script.
+			var props = !{JSON.stringify(props)};
+			var version = !{JSON.stringify(version)};
+			var user = !{JSON.stringify(user)};
+		script(src="/javascripts/es5shim.min.js")
+		script(src="/javascripts/es6shim.min.js")
+		script(src='/build/client.bundle.js')

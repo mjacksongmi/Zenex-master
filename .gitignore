@@ -1,0 +1,11 @@
+node_modules
+bin/build
+public/images
+public/flipbook
+public/flipbook2
+public/files
+public/build
+public/antd
+package-lock.json
+manifest.json
+npm-shrinkwrap.json
