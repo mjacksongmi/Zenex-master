@@ -5,14 +5,14 @@ import Slider from "../Slider";
 import CatalogSection from "../CatalogSection";
 
 let args1 = {
-    href: "/flipbook/index.html",
-    file: "/files/catalog-zenex.pdf",
-    image: "/images/catalog-zenex.jpg",
-    link_title: "View Our 2019 Catalog",
+    href: "/flipbook2021/index.html",
+    file: "/files/Zenex_Catalog_2021.pdf",
+    image: "/images/zenex-2021-catalog.jpg",
+    link_title: "View Our 2021 Catalog",
     title: "Private Label Aerosols, Liquids, Wipes, and Hand Soaps",
     text: `We are a national manufacturer of liquid chemicals, aerosols, hand soaps, wipes, and custom formulations. 
         We supply distributors around the world with quality products, value, and a commitment to customer service. 
-        Take a look at our 2020 catalog and see just the surface of our capibilities.`,
+        Take a look at our 2021 catalog and see just the surface of our capibilities.`,
     color: `rgb(146, 73, 4)`,
 };
 let args2 = {

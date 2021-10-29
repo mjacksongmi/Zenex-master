@@ -9,6 +9,9 @@ import Menu from "./Menu";
 import Right from "./Right";
 import Logo from "./Logo";
 
+
+
+
 export const Header: React.FC<TMergedHeaderComponent> = ({ dispatch, mobile, user, history, border, }) => {
 
     const setMenuOpen = (open: boolean) => dispatch(set_setting("MobileMenuOpen", open));
@@ -20,6 +23,7 @@ export const Header: React.FC<TMergedHeaderComponent> = ({ dispatch, mobile, use
         });
     }, []);
 
+ 
     return <header style={header(border)}>
         {mobile && <MenuMobileControls />}
         <div className="page headerpage">
@@ -27,7 +31,7 @@ export const Header: React.FC<TMergedHeaderComponent> = ({ dispatch, mobile, use
                 <Logo mobile={mobile} />
                 {!mobile && <Menu />}
             </div>
-            {
+             {
                 !mobile && <div className="headerright">
                     <Right user={user} />
                 </div>

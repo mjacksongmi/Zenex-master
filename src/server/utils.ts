@@ -5,7 +5,10 @@ import { accessSync } from "fs";
 
 export const mapItems = (i, index) => {
 
-  let v = i.ProductID.split('\.')[0].split('-')[0];
+
+let v = i.ProductID.split('\.')[0].split('-')[0];
+
+let v2 = i.ProductID.split('\.');
 
   try {
     if (!env.dev) { accessSync(join(__dirname, "..", "..", "public", "images", "products", "250", i.ProductID + ".gif")); }
@@ -28,8 +31,8 @@ export const mapItems = (i, index) => {
   } catch (error) { i["SDS"] = false; }
 
   try {
-    if (!env.dev) { accessSync(join(__dirname, "..", "..", "public", "files", "pds", v + ".pdf")); }
-    i["PDS"] = `/files/pds/${v}.pdf`;
+    if (!env.dev) { accessSync(join(__dirname, "..", "..", "public", "files", "pds", v2 + ".pdf")); }
+    i["PDS"] = `/files/pds/${v2}.pdf`;
   } catch (error) { i["PDS"] = false; }
 
   try {

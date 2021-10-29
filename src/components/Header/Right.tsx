@@ -43,4 +43,4 @@ export const DesktopRight = ({ user }) => {
    </>;
 };
 
-export default DesktopRight;
+export default DesktopRight; 

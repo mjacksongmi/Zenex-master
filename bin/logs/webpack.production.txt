@@ -1,21 +1,21 @@
-Hash: 636d9a011e064e29051277fcc1e6c8f93c2926b9
+Hash: b4b3fe99fa8387a1fbc670ff66536ec84fd00e66
 Version: webpack 4.41.5
 Child
-    Hash: 636d9a011e064e290512
-    Time: 38283ms
-    Built at: 10/25/2021 12:15:01 PM
+    Hash: b4b3fe99fa8387a1fbc6
+    Time: 42418ms
+    Built at: 10/29/2021 9:54:36 AM
                                 Asset       Size  Chunks                                Chunk Names
-     0.636d9a011e064e290512.bundle.js   13.4 KiB       0  [emitted] [immutable]         
-     1.636d9a011e064e290512.bundle.js   13.2 KiB       1  [emitted] [immutable]         
-    10.636d9a011e064e290512.bundle.js   5.25 KiB      10  [emitted] [immutable]         
-    11.636d9a011e064e290512.bundle.js  242 bytes      11  [emitted] [immutable]         
-     3.636d9a011e064e290512.bundle.js   51.2 KiB       3  [emitted] [immutable]         
-     4.636d9a011e064e290512.bundle.js    123 KiB       4  [emitted] [immutable]         
-     5.636d9a011e064e290512.bundle.js   29.2 KiB       5  [emitted] [immutable]         
-     6.636d9a011e064e290512.bundle.js   7.94 KiB       6  [emitted] [immutable]         
-     7.636d9a011e064e290512.bundle.js   19.6 KiB       7  [emitted] [immutable]         
-     8.636d9a011e064e290512.bundle.js     20 KiB       8  [emitted] [immutable]         
-     9.636d9a011e064e290512.bundle.js   9.53 KiB       9  [emitted] [immutable]         
+     0.b4b3fe99fa8387a1fbc6.bundle.js   13.4 KiB       0  [emitted] [immutable]         
+     1.b4b3fe99fa8387a1fbc6.bundle.js   13.2 KiB       1  [emitted] [immutable]         
+    10.b4b3fe99fa8387a1fbc6.bundle.js   5.27 KiB      10  [emitted] [immutable]         
+    11.b4b3fe99fa8387a1fbc6.bundle.js  242 bytes      11  [emitted] [immutable]         
+     3.b4b3fe99fa8387a1fbc6.bundle.js   51.2 KiB       3  [emitted] [immutable]         
+     4.b4b3fe99fa8387a1fbc6.bundle.js    123 KiB       4  [emitted] [immutable]         
+     5.b4b3fe99fa8387a1fbc6.bundle.js   29.2 KiB       5  [emitted] [immutable]         
+     6.b4b3fe99fa8387a1fbc6.bundle.js   7.94 KiB       6  [emitted] [immutable]         
+     7.b4b3fe99fa8387a1fbc6.bundle.js   19.6 KiB       7  [emitted] [immutable]         
+     8.b4b3fe99fa8387a1fbc6.bundle.js     20 KiB       8  [emitted] [immutable]         
+     9.b4b3fe99fa8387a1fbc6.bundle.js   9.53 KiB       9  [emitted] [immutable]         
                      client.bundle.js    739 KiB       2  [emitted]              [big]  client
     Entrypoint client [big] = client.bundle.js
        [0] ./node_modules/react/index.js 190 bytes {2} [built]
@@ -685,8 +685,8 @@ Child
            | ./node_modules/rc-notification/es/useNotification.js 2.24 KiB [built]
            | ./node_modules/rc-notification/es/Notification.js 10 KiB [built]
            | ./node_modules/rc-notification/es/Notice.js 5.28 KiB [built]
-     [428] ./src/components/pages/Home.tsx + 2 modules 8.41 KiB {10} [built]
-           | ./src/components/pages/Home.tsx 3 KiB [built]
+     [428] ./src/components/pages/Home.tsx + 2 modules 8.42 KiB {10} [built]
+           | ./src/components/pages/Home.tsx 3.01 KiB [built]
            | ./src/components/Slider.tsx 2.79 KiB [built]
            | ./src/components/CatalogSection.tsx 2.6 KiB [built]
      [429] ./src/components/pages/Resources/index.tsx + 1 modules 8.65 KiB {6} [built]
@@ -2924,9 +2924,9 @@ Child
           client.bundle.js
     
 Child
-    Hash: 77fcc1e6c8f93c2926b9
-    Time: 35495ms
-    Built at: 10/25/2021 12:14:59 PM
+    Hash: 70ff66536ec84fd00e66
+    Time: 37536ms
+    Built at: 10/29/2021 9:54:31 AM
                Asset     Size  Chunks             Chunk Names
     server.bundle.js  150 KiB       0  [emitted]  server
     Entrypoint server = server.bundle.js
@@ -3004,7 +3004,7 @@ Child
            | ./src/components/App.tsx 1.7 KiB [built]
            | ./src/components/Routes.Server.tsx 1.08 KiB [built]
            | ./src/models/mongoose/schemas.ts 1.11 KiB [built]
-           | ./src/server/utils.ts 2.09 KiB [built]
+           | ./src/server/utils.ts 2.13 KiB [built]
            | ./src/redux/reducer.ts 1.51 KiB [built]
            | ./src/redux/middleware.ts 662 bytes [built]
            | ./src/redux/state.ts 584 bytes [built]
@@ -3047,8 +3047,8 @@ Child
            | ./src/states.tsx 2.73 KiB [built]
            | ./node_modules/@ant-design/icons/es/icons/SmileOutlined.js 482 bytes [built]
            | ./node_modules/@ant-design/icons-svg/es/asn/SmileOutlined.js 1.06 KiB [built]
-      [55] ./src/components/pages/Home.tsx + 2 modules 8.41 KiB {0} [built]
-           | ./src/components/pages/Home.tsx 3 KiB [built]
+      [55] ./src/components/pages/Home.tsx + 2 modules 8.42 KiB {0} [built]
+           | ./src/components/pages/Home.tsx 3.01 KiB [built]
            | ./src/components/Slider.tsx 2.79 KiB [built]
            | ./src/components/CatalogSection.tsx 2.6 KiB [built]
       [56] ./src/components/pages/Resources/index.tsx + 1 modules 8.65 KiB {0} [built]

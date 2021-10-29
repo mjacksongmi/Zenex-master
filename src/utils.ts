@@ -58,7 +58,7 @@ export const buildProductDocumentFiles = (ItemCode: string, digits: number = 6) 
         type: 'PDF'
     },
     {
-        url: `/files/pds/${ItemCode.substr(0, digits)}.pdf`,
+        url: `/files/pds/${ItemCode.substr(0, 11)}.pdf`,
         name: 'PDS',
         text: {
             mobile: 'PDS',
