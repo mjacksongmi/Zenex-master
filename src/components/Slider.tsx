@@ -16,10 +16,13 @@ export module css {
 
 export const portraitSlides = [
     //{ img: 'private_label.png', href: '' },
+    //{ img: 'Aerosols.png', href: '' },
+    //{ img: 'HandCleaners.png', href: '' },
+    //{ img: 'LiquidProducts.png', href: '' },
+    //{ img: 'WetWipes.png', href: '' },
     { img: 'build_your_brand.png', href: '' },
     { img: 'increase_profits.png', href: '' },
-    { img: 'industry_best.png', href: '' },
-    { img: 'exceptional_air.png', href: '/products/category/odor eliminators' },    
+    { img: 'industry_best.png', href: '' },    
 ];
 export const portraitFolder =`/images/slider/tony/mobile/`;
 export const portraitRatio = 320/508;

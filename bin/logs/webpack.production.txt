@@ -1,23 +1,11 @@
-Hash: b4b3fe99fa8387a1fbc670ff66536ec84fd00e66
+Hash: 89ce4b8d031e74e3e128790327a561f9719a3b75
 Version: webpack 4.41.5
 Child
-    Hash: b4b3fe99fa8387a1fbc6
-    Time: 42418ms
-    Built at: 10/29/2021 9:54:36 AM
-                                Asset       Size  Chunks                                Chunk Names
-     0.b4b3fe99fa8387a1fbc6.bundle.js   13.4 KiB       0  [emitted] [immutable]         
-     1.b4b3fe99fa8387a1fbc6.bundle.js   13.2 KiB       1  [emitted] [immutable]         
-    10.b4b3fe99fa8387a1fbc6.bundle.js   5.27 KiB      10  [emitted] [immutable]         
-    11.b4b3fe99fa8387a1fbc6.bundle.js  242 bytes      11  [emitted] [immutable]         
-     3.b4b3fe99fa8387a1fbc6.bundle.js   51.2 KiB       3  [emitted] [immutable]         
-     4.b4b3fe99fa8387a1fbc6.bundle.js    123 KiB       4  [emitted] [immutable]         
-     5.b4b3fe99fa8387a1fbc6.bundle.js   29.2 KiB       5  [emitted] [immutable]         
-     6.b4b3fe99fa8387a1fbc6.bundle.js   7.94 KiB       6  [emitted] [immutable]         
-     7.b4b3fe99fa8387a1fbc6.bundle.js   19.6 KiB       7  [emitted] [immutable]         
-     8.b4b3fe99fa8387a1fbc6.bundle.js     20 KiB       8  [emitted] [immutable]         
-     9.b4b3fe99fa8387a1fbc6.bundle.js   9.53 KiB       9  [emitted] [immutable]         
-                     client.bundle.js    739 KiB       2  [emitted]              [big]  client
-    Entrypoint client [big] = client.bundle.js
+    Hash: 89ce4b8d031e74e3e128
+    Time: 46539ms
+    Built at: 11/01/2021 1:22:20 PM
+     12 assets
+    Entrypoint client = client.bundle.js
        [0] ./node_modules/react/index.js 190 bytes {2} [built]
        [1] ./node_modules/prop-types/index.js 710 bytes {2} [built]
        [2] ./node_modules/classnames/index.js 1.17 KiB {2} [built]
@@ -685,9 +673,9 @@ Child
            | ./node_modules/rc-notification/es/useNotification.js 2.24 KiB [built]
            | ./node_modules/rc-notification/es/Notification.js 10 KiB [built]
            | ./node_modules/rc-notification/es/Notice.js 5.28 KiB [built]
-     [428] ./src/components/pages/Home.tsx + 2 modules 8.42 KiB {10} [built]
+     [428] ./src/components/pages/Home.tsx + 2 modules 8.34 KiB {10} [built]
            | ./src/components/pages/Home.tsx 3.01 KiB [built]
-           | ./src/components/Slider.tsx 2.79 KiB [built]
+           | ./src/components/Slider.tsx 2.71 KiB [built]
            | ./src/components/CatalogSection.tsx 2.6 KiB [built]
      [429] ./src/components/pages/Resources/index.tsx + 1 modules 8.65 KiB {6} [built]
            | ./src/components/pages/Resources/index.tsx 5.68 KiB [built]
@@ -2913,22 +2901,14 @@ Child
     [2636] ./node_modules/rmc-feedback/es/index.js 42 bytes [built]
     [2637] ./node_modules/toggle-selection/index.js 780 bytes [built]
     
-    WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
-    This can impact web performance.
-    Assets: 
-      client.bundle.js (739 KiB)
-    
-    WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
-    Entrypoints:
-      client (739 KiB)
-          client.bundle.js
-    
+    ERROR in C:\Users\mjackson\Documents\GitHub\Zenex-working\Zenex-master\Zenex-master\src\server\Products.tsx
+    [tsl] ERROR in C:\Users\mjackson\Documents\GitHub\Zenex-working\Zenex-master\Zenex-master\src\server\Products.tsx(162,37)
+          TS2339: Property 'findOne' does not exist on type 'Schema<Document<any, any, any>, Model<Document<any, any, any>, any, any>, undefined, {}>'.
 Child
-    Hash: 70ff66536ec84fd00e66
-    Time: 37536ms
-    Built at: 10/29/2021 9:54:31 AM
-               Asset     Size  Chunks             Chunk Names
-    server.bundle.js  150 KiB       0  [emitted]  server
+    Hash: 790327a561f9719a3b75
+    Time: 38395ms
+    Built at: 11/01/2021 1:22:12 PM
+     1 asset
     Entrypoint server = server.bundle.js
        [0] external "react" 42 bytes {0} [built]
        [1] external "react-router" 42 bytes {0} [built]
@@ -3047,9 +3027,9 @@ Child
            | ./src/states.tsx 2.73 KiB [built]
            | ./node_modules/@ant-design/icons/es/icons/SmileOutlined.js 482 bytes [built]
            | ./node_modules/@ant-design/icons-svg/es/asn/SmileOutlined.js 1.06 KiB [built]
-      [55] ./src/components/pages/Home.tsx + 2 modules 8.42 KiB {0} [built]
+      [55] ./src/components/pages/Home.tsx + 2 modules 8.34 KiB {0} [built]
            | ./src/components/pages/Home.tsx 3.01 KiB [built]
-           | ./src/components/Slider.tsx 2.79 KiB [built]
+           | ./src/components/Slider.tsx 2.71 KiB [built]
            | ./src/components/CatalogSection.tsx 2.6 KiB [built]
       [56] ./src/components/pages/Resources/index.tsx + 1 modules 8.65 KiB {0} [built]
            | ./src/components/pages/Resources/index.tsx 5.68 KiB [built]
@@ -4622,3 +4602,7 @@ Child
     [1616] ./node_modules/@ant-design/icons/es/icons/ZoomInOutlined.js 490 bytes [built]
     [1617] ./node_modules/@ant-design/icons/es/icons/ZoomOutOutlined.js 498 bytes [built]
     [1618] ./node_modules/@ant-design/icons/es/icons/index.js 50 KiB [built]
+    
+    ERROR in C:\Users\mjackson\Documents\GitHub\Zenex-working\Zenex-master\Zenex-master\src\server\Products.tsx
+    [tsl] ERROR in C:\Users\mjackson\Documents\GitHub\Zenex-working\Zenex-master\Zenex-master\src\server\Products.tsx(162,37)
+          TS2339: Property 'findOne' does not exist on type 'Schema<Document<any, any, any>, Model<Document<any, any, any>, any, any>, undefined, {}>'.

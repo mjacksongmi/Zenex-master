@@ -159,7 +159,7 @@ r.use("/", async (req, res, next) => {
 
 		if (i.Hardware) {
 			let hardware;
-			try { hardware = await ZenexItem.findOne({ ProductID: i.Hardware }).exex(); }
+			try { hardware = await ZenexItem.find({ ProductID: i.Hardware }).exex(); }
 			catch (error) { console.log(error); }
 		}
 
