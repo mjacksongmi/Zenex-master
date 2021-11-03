@@ -7,10 +7,10 @@ export const ldapZenexLocal = {
   password: 'NetNodeMichael9',
 };
 
-export const smtp_chemsafe = 'smtp://api@chemsafeint.com:Zenex449!@mail092-co-1.exch092.serverdata.net';
-export const smtp_chemsafe_support = 'smtp://support@chemsafeint.com:Zenex449!@mail092-co-1.exch092.serverdata.net';
-export const smtp_zenex = 'smtp://api@chemsafeint.com:Chemsafe449!@mail092-co-1.exch092.serverdata.net';
-export const smtp_zenex_support = 'smtp://support@zenexint.com:Chemsafe449!@mail092-co-1.exch092.serverdata.net';
+export const smtp_chemsafe = 'smtp://api@chemsafeint.com:Gqrbej7!@mail092-co-1.exch092.serverdata.net';
+export const smtp_chemsafe_support = 'smtp://support@chemsafeint.com:Gqrbej7!@mail092-co-1.exch092.serverdata.net';
+export const smtp_zenex = 'smtp://api@chemsafeint.com:Gqrbej7!@mail092-co-1.exch092.serverdata.net';
+export const smtp_zenex_support = 'smtp://support@zenexint.com:Gqrbej7!@mail092-co-1.exch092.serverdata.net';
 
 type serverKey = 'znx-mssql-srv' | 'znx-iis-srv' | 'znx-sage-srv' | 'gmimssql.database.windows.net' | 'znx-sql-srv';
 export const connectionStrings: { [conName in serverKey & serverKey]: string } = {

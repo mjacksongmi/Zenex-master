@@ -2,11 +2,11 @@ const nodemailer = require('nodemailer');
 const smtpTransport = require('nodemailer-smtp-transport');
 
 export const get_transport = () => nodemailer.createTransport(smtpTransport({
-  host: 'secure.emailsrvr.com',
+  host: 'mail092-co-1.exch092.serverdata.net',
   port: 465,
   auth: {
     user: 'api@zenexint.com',
-    pass: 'Zenex449!',
+    pass: 'Gqrbej7!',
   },
   tls: {
     // do not fail on invalid certs

@@ -1,4 +1,4 @@
-export const emailArgs = { host: 'secure.emailsrvr.com', user: 'api@zenexint.com', pass: 'Zenex449!' };
+export const emailArgs = { host: 'mail092-co-1.exch092.serverdata.net', user: 'api@zenexint.com', pass: 'Gqrbej7!' };
 
 export const secret = 'LmiCc4now!12941219';
 

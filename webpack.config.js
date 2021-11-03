@@ -14,6 +14,18 @@ const globalConfig = env => ({
 	devtool: env.production ? 'none' : 'source-map',
 });
 
+
+module.exports = {
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.fallback.fs = false;
+    }
+    return config;
+  },
+}
+
+
+
 const nodeConfig = env => ({
 	target: 'node',
 	node: {
@@ -31,21 +43,22 @@ const nodeConfig = env => ({
 	}, {}),
 });
 
+
 module.exports = env => [{
 	...globalConfig(env),
 	entry: { client: './src/client/index.tsx', },
 	output: {
 		path: path.join(__dirname, 'public', 'build'),
 		publicPath: "/build/",
-		chunkFilename: "[name]." + (env.production ? "[hash]." : "") + "bundle.js",
-		filename: "[name].bundle.js"
+		chunkFilename: "[name]." + (env.production ? "[hash]." : "") + "bundle.js"
+		//filename: "[name].bundle.js"
 	},
 }, {
 	...globalConfig(env),
 	...nodeConfig(env),
 	entry: { server: './src/server/index.tsx', },
 	output: {
-		path: path.join(__dirname, 'bin', 'build'),
-		filename: '[name].bundle.js',
+		path: path.join(__dirname, 'bin', 'build')
+		//filename: '[name].bundle.js',
 	},
 }];
