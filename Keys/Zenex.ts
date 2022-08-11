@@ -9,8 +9,8 @@ export const webTokenKey = "ecl493as3xe3b3r3u3l34913394xxcr4c3r33499oltlxmukljbm
 
 export const google_recaptcha_v2 = dev => ({ sitekey: dev ? "6Lclm3kUAAAAAAQSKK8bPsJaGKxpmUlvPEcCqWU7" : "6LdrnHkUAAAAABq7pp_KQj23_8keKtC4UdZQAoi6" });
 
-export const connectionStrings = {
-  'znx-sql-srv': 'Server=znx-sql-srv;Database=GMI;User Id=zenex\\michaelmickler;Password=NetNodeMichael9;',
-  'znx-mssql-srv': 'Server=znx-mssql-srv;Database=Sage100;User Id=zenex\\michaelmickler;Password=NetNodeMichael9;',
-  'gmimssql.database.windows.net': 'Server=tcp:gmimssql.database.windows.net,1433;Initial Catalog=Sage100;Persist Security Info=False;User ID=michaelmickler;Password=SwAaM49#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;Request Timeout=3600000'
-};
+//export const connectionStrings = {
+//  'znx-sql-srv': 'Server=znx-sql-srv;Database=GMI;User Id=zenex\\michaelmickler;Password=NetNodeMichael9;',
+//  'znx-mssql-srv': 'Server=znx-mssql-srv;Database=Sage100;User Id=zenex\\michaelmickler;Password=NetNodeMichael9;',
+//  'gmimssql.database.windows.net': 'Server=tcp:gmimssql.database.windows.net,1433;Initial Catalog=Sage100;Persist Security Info=False;User ID=michaelmickler;Password=SwAaM49#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;Request Timeout=3600000'
+//};

@@ -12,15 +12,15 @@ export const smtp_chemsafe_support = 'smtp://support@chemsafeint.com:Gqrbej7!@ma
 export const smtp_zenex = 'smtp://api@chemsafeint.com:Gqrbej7!@mail092-co-1.exch092.serverdata.net';
 export const smtp_zenex_support = 'smtp://support@zenexint.com:Gqrbej7!@mail092-co-1.exch092.serverdata.net';
 
-type serverKey = 'znx-mssql-srv' | 'znx-iis-srv' | 'znx-sage-srv' | 'gmimssql.database.windows.net' | 'znx-sql-srv';
-export const connectionStrings: { [conName in serverKey & serverKey]: string } = {
-  'znx-iis-srv': '',
-  'znx-sage-srv': '',
-  'znx-sql-srv': 'Server=znx-sql-srv;Database=GMI;User Id=zenex\\michaelmickler;Password=NetNodeMichael9;',
-  'znx-mssql-srv': 'Server=znx-mssql-srv;Database=Sage100;User Id=zenex\\michaelmickler;Password=NetNodeMichael9;',
-  'gmimssql.database.windows.net': 'Server=tcp:gmimssql.database.windows.net,1433;Initial Catalog=Sage100;Persist Security Info=False;User ID=michaelmickler;Password=SwAaM49#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;Request Timeout=7200000'
-};
-export const azrSqlStr = connectionStrings['gmimssql.database.windows.net'];
+//type serverKey = 'znx-mssql-srv' | 'znx-iis-srv' | 'znx-sage-srv' | 'gmimssql.database.windows.net' | 'znx-sql-srv';
+//export const connectionStrings: { [conName in serverKey & serverKey]: string } = {
+//  'znx-iis-srv': '',
+//  'znx-sage-srv': '',
+//  'znx-sql-srv': 'Server=znx-sql-srv;Database=GMI;User Id=zenex\\michaelmickler;Password=NetNodeMichael9;',
+//  'znx-mssql-srv': 'Server=znx-mssql-srv;Database=Sage100;User Id=zenex\\michaelmickler;Password=NetNodeMichael9;',
+//  'gmimssql.database.windows.net': 'Server=tcp:gmimssql.database.windows.net,1433;Initial Catalog=Sage100;Persist Security Info=False;User ID=michaelmickler;Password=SwAaM49#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;Request Timeout=7200000'
+//};
+//export const azrSqlStr = connectionStrings['gmimssql.database.windows.net'];
 
 //export const mlabSandbox = `mongodb://chemsafeint:j12e94d12i19@ds026428-a0.mlab.com:26428,ds026428-a1.mlab.com:26426/gmi?replicaSet=rs-ds026428${rewrites}`;
 //export const mlabProduction = `mongodb://chemsafeint:j12e94d12i19@ds026428-a0.mlab.com:26428,ds026428-a1.mlab.com:26426/gmi?replicaSet=rs-ds026428${rewrites}`;
